@@ -246,7 +246,7 @@
         function loadQuestions() {
             const container = document.getElementById('test-container');
             container.innerHTML = '';
-            const selectedQuestions = getRandomQuestions(questions, 1);
+            const selectedQuestions = getRandomQuestions(questions, 10);
 
             selectedQuestions.forEach(question => {
                 const options = shuffleArray([...questions[question]]);
