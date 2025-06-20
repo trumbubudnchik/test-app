@@ -284,7 +284,7 @@
 
             buttons.forEach(btn => btn.classList.add('disabled'));
 
-            fetch('https://script.google.com/macros/library/d/1IAJVZ_U8Ci6FiocLrE9hV_93X9dDzTR8K5IVLoxZFHB5MVvmZb5YbxlQ/1', {
+            fetch('https://script.google.com/macros/s/AKfycbwHFiuSMs7G9pinbFxr5U15zVVdNScL_C0sB2zQ68UQmGFwkb6T9jhpSJuXpiQ0VsXh/exec', {
                 method: 'POST',
                 body: JSON.stringify({ question, answer: userAnswer }),
                 headers: { 'Content-Type': 'application/json' }
